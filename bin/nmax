@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.push(File.expand_path('../lib', __dir__))
+
+require "bundler/setup"
+require "nmax"
+
+Nmax.run(STDIN,ARGV[0])
